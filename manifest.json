@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "잔디",
+  "name": "Github",
   "version": "1.0",
   "description": "A brief description of your extension",
   "icons": {
@@ -10,5 +10,12 @@
     "default_icon": "images/github-mark.png",
     "default_title": "잔디 확인,",
     "default_popup": "index.html"
-  }
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_security_policy": {
+    "content_security_policy": {
+      "extension_pages": "script-src 'self' 'unsafe-inline';"
+    }  }
 }
