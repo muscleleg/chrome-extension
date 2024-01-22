@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "잔디",
+  "version": "1.0",
+  "description": "A brief description of your extension",
+  "icons": {
+    "128": "images/github-mark.png"
+  },
+  "action": {
+    "default_icon": "images/github-mark.png",
+    "default_title": "잔디 확인,",
+    "default_popup": "index.html"
+  }
+}
